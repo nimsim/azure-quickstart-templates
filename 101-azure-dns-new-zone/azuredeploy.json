@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "newZoneName": {
-      "type": "string",
+      "type": "int",
       "defaultValue": "[concat(uniqueString(resourceGroup().id), '.azurequickstart.org')]",
       "metadata": {
         "description": "The name of the DNS zone to be created.  Must have at least 2 segements, e.g. hostname.org"
